@@ -3,7 +3,11 @@
  * the standard input according to the problem statement.
  **/
 
-const n: number = parseInt(readline());   // readline étant la function readline(): string Read a line from stdin définie par codingame
+const n: number = parseInt(readline());   // readline étant la function readline(): string Read a line from stdin définie par CodinGame
+
+function readline(): string {
+    throw new Error("Function not implemented.");
+}
 
 
 let v_max : number = 0
@@ -33,6 +37,3 @@ else {
     console.log(-p_max)
 }
 
-function readline(): string {
-    throw new Error("Function not implemented.");
-}
